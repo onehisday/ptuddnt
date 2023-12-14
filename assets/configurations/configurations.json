@@ -1,0 +1,529 @@
+{
+  "wordpress_url_scheme": "http",
+  "wordpress_url_domain": "172.16.0.116",
+  "wordpress_url_path": "bds40",
+  "app_name": "Không gian số",
+  "wordpress_url": "http://172.16.0.116/bds40",
+  "app_terms_url": "http://172.16.0.116/bds40/terms.html",
+  "app_privacy_url": "http://172.16.0.116/bds40/privacy.html",
+  "app_terms_of_use_url": "http://172.16.0.116/bds40/terms.html",
+  "wordpress_url_gdpr_agreement": "http://172.16.0.116/bds40/terms.html",
+  "company_url": "http://172.16.0.116/bds40/terms.html",
+  "primary_color": "#FF48A93B",
+  "secondary_color": "#FF48A93B",
+  "app_background_color_light_mode": "#FFFFFFFF",
+  "app_background_color_dark_mode": "#FF18191B",
+  "headings_color_light_mode": "#FF757575",
+  "headings_color_dark_mode": "#FFBDBDBD",
+  "filter_page_headings_color_light_mode": "#FF757575",
+  "filter_page_headings_color_dark_mode": "#FF757575",
+  "filter_page_place_holder_text_color_light_mode": "#FF212121",
+  "filter_page_place_holder_text_color_dark_mode": "#FF212121",
+  "icon_tint_color": "#FF48A93B",
+  "icon_tint_color_dark_mode": "#FF868A8D",
+  "filter_page_icon_tint_color_light_mode": "#FF48A93B",
+  "filter_page_icon_tint_color_dark_mode": "#FF868A8D",
+  "slider_tint_color": "#FF48A93B",
+  "bottom_tab_bar_background_color_light": "#FFFAFAFA",
+  "bottom_tab_bar_background_color_dark": "#FF303030",
+  "bottom_tab_bar_tint_color": "#FF48A93B",
+  "un_selected_bottom_tab_bar_tint_color": "#FF737373",
+  "selected_item_background_color": "#FF48A93B",
+  "un_selected_item_background_color": "#32808080",
+  "selected_item_text_color": "#FFFAFAFA",
+  "un_selected_item_text_color": "#8A000000",
+  "favourite_icon_tint_color": "#FFF44336",
+  "property_details_email_button_bg_color": "#FF48A93B",
+  "property_details_call_button_bg_color": "#FF4CAF50",
+  "property_details_whatsapp_button_bg_color": "#FF25D366",
+  "action_button_background_color": "#FF48A93B",
+  "property_item_design_container_bg_color_light_mode": "#FFFFFFFF",
+  "property_item_design_container_bg_color_dark_mode": "#FF242527",
+  "featured_label_background_color": "#9925ADDE",
+  "featured_tag_background_color_dark_mode": "#FF3A3B3D",
+  "featured_tag_border_color_light_mode": "#9925ADDE",
+  "featured_tag_border_color_dark_mode": "#FF000000",
+  "featured_tag_font_color_light_mode": "#FF000000",
+  "featured_tag_font_color_dark_mode": "#FFBDBDBD",
+  "tag_background_color": "#FFF5F5F5",
+  "tag_background_color_dark_mode": "#FF3A3B3D",
+  "tag_border_color_light_mode": "#1F000000",
+  "tag_border_color_dark_mode": "#1FFFFFFF",
+  "tag_font_color_light_mode": "#FF000000",
+  "tag_font_color_dark_mode": "#FFBDBDBD",
+  "divider_color_light_mode": "#1F000000",
+  "divider_color_dark_mode": "#1FFFFFFF",
+  "locale_in_url": "Do not change url",
+  "rest_api_properties_route": "properties",
+  "rest_api_agent_route": "agents",
+  "rest_api_agency_route": "agencies",
+  "google_map_api_key": "",
+  "lock_places_api": false,
+  "lock_places_api_countries": null,
+  "android_native_ad_id": "",
+  "ios_native_ad_id": "",
+  "show_ads": false,
+  "show_map_instead_filter": false,
+  "show_login_with_facebook": true,
+  "show_login_with_google": true,
+  "show_login_with_apple": true,
+  "show_login_with_phone": false,
+  "show_email_button": true,
+  "show_call_button": true,
+  "show_whatsapp_button": true,
+  "default_home": "home_0",
+  "default_bottom_navbar_design": "design_03",
+  "show_total_search_type_options": 3,
+  "show_theme_related_settings": false,
+  "show_request_demo": false,
+  "show_add_property": true,
+  "api_config_version": 1,
+  "home_layout": [
+    {
+      "section_type": "term_with_icons",
+      "title": "What are you looking for?",
+      "layout_design": "",
+      "sub_type": "",
+      "sub_type_value": "",
+      "section_listing_view": "",
+      "show_featured": false,
+      "show_nearby": false,
+      "sub_type_list": null,
+      "sub_type_value_list": null,
+      "search_api_map": {},
+      "search_route_map": {}
+    },
+    {
+      "section_type": "recent_search",
+      "title": "Recent Searches",
+      "layout_design": "",
+      "sub_type": "",
+      "sub_type_value": "",
+      "section_listing_view": "carousel",
+      "show_featured": false,
+      "show_nearby": false,
+      "sub_type_list": null,
+      "sub_type_value_list": null,
+      "search_api_map": {},
+      "search_route_map": {}
+    },
+    {
+      "section_type": "property",
+      "title": "Featured Properties",
+      "layout_design": "Design # 01",
+      "sub_type": "all",
+      "sub_type_value": "all",
+      "section_listing_view": "carousel",
+      "show_featured": true,
+      "show_nearby": false,
+      "sub_type_list": ["all"],
+      "sub_type_value_list": ["all"],
+      "search_api_map": {},
+      "search_route_map": {}
+    },
+    {
+      "section_type": "property",
+      "title": "Latest Properties",
+      "layout_design": "Design # 01",
+      "sub_type": "property_city",
+      "sub_type_value": "all",
+      "section_listing_view": "carousel",
+      "show_featured": false,
+      "show_nearby": false,
+      "sub_type_list": ["property_city"],
+      "sub_type_value_list": ["all"],
+      "search_api_map": {},
+      "search_route_map": {}
+    },
+    {
+      "section_type": "term",
+      "title": "Explore By Type",
+      "layout_design": "Design # 01",
+      "sub_type": "property_type",
+      "sub_type_value": "all",
+      "section_listing_view": "carousel",
+      "show_featured": false,
+      "show_nearby": false,
+      "sub_type_list": null,
+      "sub_type_value_list": null,
+      "search_api_map": {},
+      "search_route_map": {}
+    },
+    {
+      "section_type": "agents",
+      "title": "Meet Our Agents",
+      "layout_design": "",
+      "sub_type": "agents",
+      "sub_type_value": "",
+      "section_listing_view": "carousel",
+      "show_featured": false,
+      "show_nearby": false,
+      "sub_type_list": null,
+      "sub_type_value_list": null,
+      "search_api_map": {},
+      "search_route_map": {}
+    },
+    {
+      "section_type": "agencies",
+      "title": "Meet Our Agencies",
+      "layout_design": "",
+      "sub_type": "agencies",
+      "sub_type_value": "",
+      "section_listing_view": "carousel",
+      "show_featured": false,
+      "show_nearby": false,
+      "sub_type_list": null,
+      "sub_type_value_list": null,
+      "search_api_map": {},
+      "search_route_map": {}
+    }
+  ],
+  "filter_page_layout": [
+    {
+      "section_type": "term_picker",
+      "title": "I want to",
+      "data_type": "property_status",
+      "api_value": "status[]",
+      "picker_type": "tabs and chips",
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "0"
+    },
+    {
+      "section_type": "location_picker",
+      "title": "City",
+      "data_type": "property_city",
+      "api_value": "location[]",
+      "picker_type": "full_screen",
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "0"
+    },
+    {
+      "section_type": "term_picker",
+      "title": "Property Types",
+      "data_type": "property_type",
+      "api_value": "type[]",
+      "picker_type": "tabs and chips",
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "0"
+    },
+    {
+      "section_type": "range_picker",
+      "title": "Area range",
+      "data_type": "area",
+      "api_value": "max-area",
+      "picker_type": "range slider",
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "1000000"
+    },
+    {
+      "section_type": "range_picker",
+      "title": "Price range",
+      "data_type": "price",
+      "api_value": "max-price",
+      "picker_type": "range slider",
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "1000000"
+    },
+    {
+      "section_type": "string_picker",
+      "title": "Bedrooms",
+      "data_type": "bedrooms",
+      "api_value": "bedrooms",
+      "picker_type": "chips",
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "0"
+    },
+    {
+      "section_type": "string_picker",
+      "title": "Bathrooms",
+      "data_type": "bathrooms",
+      "api_value": "bathrooms",
+      "picker_type": "chips",
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "0"
+    }
+  ],
+  "drawer_layout": [
+    {
+      "section_type": "home",
+      "title": "Trang chủ",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "add_property",
+      "title": "Add Property",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "quick_add_property",
+      "title": "Quick Add Property",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "properties",
+      "title": "Properties",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "agents",
+      "title": "Agents",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "agencies",
+      "title": "Agencies",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "request_property",
+      "title": "Property Request",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "favorites",
+      "title": "Favorites",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "saved_searches",
+      "title": "Saved Searches",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "expansionTile",
+      "title": "CRM Dashboard",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": [
+        {
+          "section_type": "activities",
+          "title": "Activities",
+          "check_login": true,
+          "enable": null,
+          "expansion_tile_children": null,
+          "data_map": null
+        },
+        {
+          "section_type": "inquiries",
+          "title": "Inquiries",
+          "check_login": true,
+          "enable": null,
+          "expansion_tile_children": null,
+          "data_map": null
+        },
+        {
+          "section_type": "deals",
+          "title": "Deals",
+          "check_login": true,
+          "enable": null,
+          "expansion_tile_children": null,
+          "data_map": null
+        },
+        {
+          "section_type": "leads",
+          "title": "Leads",
+          "check_login": true,
+          "enable": null,
+          "expansion_tile_children": null,
+          "data_map": null
+        }
+      ],
+      "data_map": null
+    },
+    {
+      "section_type": "settings",
+      "title": "Settings",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "request_demo",
+      "title": "Request Demo",
+      "check_login": false,
+      "enable": false,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "login",
+      "title": "Login",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "logout",
+      "title": "Log Out",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    }
+  ],
+  "property_detail_page_layout": [
+    {
+      "widget_type": "article_images",
+      "widget_title": "Property Images",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_title",
+      "widget_title": "Title",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_address",
+      "widget_title": "Property Address",
+      "widget_enable": false,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_status_price",
+      "widget_title": "Status & Price",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "ad",
+      "widget_title": "Ad",
+      "widget_enable": false,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "valued_features",
+      "widget_title": "Features with values",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_features_details",
+      "widget_title": "Details",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_features",
+      "widget_title": "Features",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_description",
+      "widget_title": "Description",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_address_info",
+      "widget_title": "Address",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_map",
+      "widget_title": "Static Map",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_floor_plans",
+      "widget_title": "FloorPlans",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_multi_units",
+      "widget_title": "Sub Listings",
+      "widget_enable": true,
+      "widget_view_type": "list"
+    },
+    {
+      "widget_type": "article_contact_information",
+      "widget_title": "Contact Information",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "enquire_info",
+      "widget_title": "Enquire Info",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "setup_tour",
+      "widget_title": "Setup Tour",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "watch_video",
+      "widget_title": "Watch Video",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "virtual_tour",
+      "widget_title": "Virtual Tour",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_reviews",
+      "widget_title": "Reviews",
+      "widget_enable": true,
+      "widget_view_type": ""
+    },
+    {
+      "widget_type": "article_related_posts",
+      "widget_title": "Related Properties",
+      "widget_enable": true,
+      "widget_view_type": "list"
+    }
+  ]
+}
